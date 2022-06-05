@@ -1,0 +1,8 @@
+prefix=/home/arta/catkin_ws/install
+
+Name: turtlebot3_hw2
+Description: Description of turtlebot3_hw2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
