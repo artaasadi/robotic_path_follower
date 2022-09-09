@@ -1,0 +1,18 @@
+<launch>
+
+    <!-- <node pkg="ros_tutorial" type="follow_wall.py" name="follow_wall" output="screen" ></node> -->
+
+    <!-- <include file="$(find ros_tutorial)/launch/turtlebot3_big_wall.launch">         -->
+    <!-- <node pkg="ros_tutorial" type="follow_wall.py" name="follow_wall" output="screen" ></node>
+    <include file="$(find ros_tutorial)/launch/turtlebot3_square.launch">  -->
+    
+    <!-- <node pkg="ros_tutorial" type="follow_maze.py" name="follow_maze" output="screen" ></node>
+    <include file="$(find ros_tutorial)/launch/turtlebot3_maze.launch"> 
+    </include> -->
+
+    <node pkg="ros_tutorial" type="follow_goal.py" name="follow_goal" output="screen" ></node>
+    <include file="$(find ros_tutorial)/launch/turtlebot3_path_to_goal.launch"> 
+    </include>
+    
+   
+</launch>
